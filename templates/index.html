@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>你好</title>
+    <script>
+        function buttonClick(){
+            var text = document.getElementsByClassName("input").value;
+            text="itms-services://?action=download-manifest&url="+"http://127.0.0.1:5000//Load/"+text
+
+            location.assign("https://www.example.com");
+
+        }
+    </script>
+</head>
+<body>
+        <p>请输入url</p>
+        <input id="input">
+        <button id="a" onclick="buttonClick();">安装</button>
+</body>
+</html>
